@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="projects.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body class="text-white">
+    <div class="container-fluid h-100 d-flex Enter position-relative">
+        <img src="/Assets/blue bubble.jpg" class="background-image">
+        <div class="content text-white">
+            <header class="d-flex justify-content-center py-3">
+                <ul class="nav nav-pills">
+                    <li class="nav-item"><a href="./enterr.html" class="nav-link active" aria-current="page">Home</a></li>
+                    <li class="nav-item"><a href="./about.html" class="nav-link">About Me</a></li>
+                    <li class="nav-item"><a href="./Assets/Amol_Srivastava_Resume_2025.pdf" class="nav-link">Resume</a></li>
+                </ul>
+            </header>
+
+            <main class="container">
+                <div class="px-2 py-1 my-2 text-center ">
+                    <h1 class="display-5 fw-bold one" style="letter-spacing: 5px;">Projects</h1>
+                    <div class="col-lg-6 mx-auto">
+                        <p class="lead mb-4 typewriter">Here are some of my favorite projects I made, hope you enjoy</p>
+                    </div>
+                </div>
+                
+                <div class="row g-4 py-5 row-cols-1 row-cols-md-2 justify-content-center">
+                    <div class="col">
+                        <div class="card h-100 bg-dark text-white">
+                            <div class="card-body">
+                                <h3 class="card-title fs-2">Premier League Game Winner Predictor</h3>
+                                <h4>Machine Learning: Python, Pandas, Numpy, Sci-kit Learn, Matplotlib </h4>
+                                <p class="card-text">
+                                    <strong>Overview:</strong> This project aims to predict Premier League game winners using historical data, player stats, and team performance metrics. By leveraging machine learning techniques, the model provides predictions to assist in game outcome analysis.
+                                    <br><strong>Features:</strong><br>
+                                    - <strong>Data Collection:</strong> Scrapes Premier League game data from multiple seasons using Python and requests.<br>
+                                    - <strong>Data Cleaning:</strong> Utilizes BeautifulSoup and pandas to parse and clean HTML data.<br>
+                                    - <strong>Feature Engineering:</strong> Processes features such as team performance metrics, match stats, and more.<br>
+                                    - <strong>Model Training:</strong> Implements machine learning models like Random Forest Classifier to predict game outcomes.<br>
+                                    - <strong>Visualization:</strong> Generates insightful graphs to illustrate feature importance and model accuracy.
+                                </p>
+                                <img src="./Assets/channels4_profile.jpg" alt="Premier League Predictor Image" width="300px" height="200px" ">
+                                <a href="https://github.com/amol-srivastava/Classification-Model" class="btn btn-outline-light mt-3">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 bg-dark text-white">
+                            <div class="card-body">
+                                <h3 class="card-title fs-2">AI-Image Generator</h3>
+                                <h4>Software Engineering: React, JavaScript, Node.js, Express.js </h4>
+                                <p class="card-text">
+                                    <strong>Overview:</strong> AI-Image Generator is a web application I've created to allow users to generate AI-driven images based on text prompts. By leveraging OpenAI's DALL-E 3 model, users can input a detailed description of the image they want and receive visually compelling AI-created images.
+                                    <br><strong>Features:</strong><br>
+                                    - <strong>Text-to-Image Conversion:</strong> Utilizes OpenAI's DALL-E 3 model to transform user-provided text prompts into high-quality images.<br>
+                                    - <strong>User Interface:</strong> A sleek and user-friendly interface that allows users to easily input their prompts and view the generated images.<br>
+                                    - <strong>Customization:</strong> Offers users the ability to fine-tune their image prompts with specific details for more personalized outputs.<br>
+                                    - <strong>Gallery:</strong> Stores generated images in a gallery, allowing users to browse and download their creations.<br>
+                                    - <strong>Real-Time Generation:</strong> Provides quick and efficient image generation to enhance user experience.
+                                </p>
+                                <img src="./Assets/OpenAI-GPT-3-featured-image.png" alt="Premier League Predictor Image" width="300px" height="200px"">
+                                <a href="#" class="btn btn-outline-light">View Project</a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    <div class="container-fluid h-100 d-flex flex-column">
+    
+        <footer class="footer mt-auto py-3">
+            <div class="container d-flex flex-wrap justify-content-between align-items-center">
+                <div class="col-md-4 d-flex align-items-center">
+                    <a href="/" class="mb-3 me-2 mb-md-0 text-decoration-none lh-1">
+                        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+                    </a>
+                    <span class="mb-3 mb-md-0 ace" id="a_s">© 2024 Amol Srivastava</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
